@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: white;
+}
+
+.sidebar-header {
+    height: 70px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #0056b3;
+}
+
+.nav-link {
+    color: #979797;
+    padding: 10px 8px;
+    font-weight: 700;
+}
+
+.nav-link.active {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body h5 {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.card-body p {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: bold;
+}
+.logoUnpam {
+    height: 50px;
+    width: auto;
+    border-radius: 8px;
+}
+.descPN {
+    color: black;
+    margin-bottom: 0;
+    font-size: smaller;
+}
+.descProfile {
+    padding: 0;
+}
+.navCont {
+    border-top: 1px solid rgb(187, 187, 187);
+}
+.sidebarAcc {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+.leftNavIcons {
+    margin-right: 8px;
+}
+.btnLeftNav {
+    width: 100%;
+}
+.topNav {
+    height: 70px;
+    background: rgb(0,74,154);
+    background: linear-gradient(90deg, rgba(0,74,154,1) 40%, rgba(0,107,222,1) 100%);
+}
+.profileLogoNav {
+    height: 50px;
+    margin: 10px;
+}
+.topNav {
+    text-align: end;
+}
+.topContainer {
+    background: rgb(0,74,154);
+    background: linear-gradient(90deg, rgba(0,107,222,1) 40%, rgba(0,74,154,1) 100%);
+}
